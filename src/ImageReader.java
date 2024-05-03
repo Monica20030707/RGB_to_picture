@@ -6,9 +6,7 @@ import java.io.*;
 import java.util.*;
 
 /***********************************************************
-* Name: Monica Nguyen
 * Date: 27 Jan 2023
-* Course Code: CS351
 * Description: This program will reads from the given input file,
 * image.dat, and creates an RGB image file, output.png, 
 * with the given width and height as the first 2 token from the data file.
@@ -34,7 +32,7 @@ public class ImageReader {
 	
 	// This parameter read the data file and take all the RBG decimal number to an ArrayList
 	public static void fileReader() throws FileNotFoundException {
-		Scanner file= new Scanner(new File("image.dat"));
+		Scanner file= new Scanner(new File("*/data/image.dat"));
 		while (file.hasNext()) {
 			token.add(file.next());
 		}
