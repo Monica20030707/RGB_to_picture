@@ -1,5 +1,3 @@
-package part2;
-
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.io.*;
